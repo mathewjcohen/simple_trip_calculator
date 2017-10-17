@@ -1,0 +1,180 @@
+body {
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  color: #333;
+}
+.container{
+  margin: 0 auto;
+  width: 1024px;
+}
+
+hr{
+  margin: 2em 0;
+}
+/* HEADER STYLES */
+#header{
+  padding: .75em 0;
+  font-size: 2em;
+  background: #5096ff;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+/* PAGE WRAP STYLES */
+#wrap{
+  padding: 2em 0;
+  min-height: 35em;
+}
+
+
+/* INPUT STYLES */
+input{
+  width: calc(100% - 1em);
+  padding: .25em .5em;
+  margin-bottom: 1em;
+  font-size: .75em;
+  color: #666;
+}
+.btn{
+  padding: .5em 1em;
+  border: 0px;
+  background: rgba(80, 150, 255, 1);
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 3px 3px 4px #888;
+  transition: all ease-in-out .1s;
+}
+.btn:hover{
+  background: rgba(0, 106, 255, 1);
+  box-shadow: 0px 0px 0px #888;
+}
+
+
+.error{
+  color: red;
+  font-size: .6em;
+}
+
+/* CALCULATOR STYLES */
+#calc_wrap{
+  display: flex;
+}
+
+#calc_function{
+  text-align: center;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+
+/* ADD PERSON COMPONENT */
+#add_traveler{
+  width: 33%;
+  margin: 2em 1em 1em 0;
+}
+
+#add_traveler fieldset{
+  color: #5096ff;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  padding: 1em 2em;;
+  border: 1px solid #cdcdcd;
+  text-align: center;
+}
+#add_traveler legend{
+  text-align: left;
+}
+#add_traveler h5{
+  text-align: left;
+  margin: 0;
+}
+#add_traveler .display_current_data{
+  text-align: left;
+}
+#add_traveler .display_current_data p{
+  margin-bottom: 1.5em;
+}
+#add_traveler span{
+  color: #333;
+}
+
+
+
+
+/* TRAVELERS WRAP */
+#travelers{
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.traveler_container{
+  width: auto;
+  padding: 1em 2em;
+  font-size: 1.25em;
+  color: #333;
+  text-align: center;
+}
+.traveler_container p{
+  text-align: center;
+  font-weight: bold;
+  padding: 1em 2em;
+  background: #5096ff;
+  color: #fff;
+}
+.traveler_container ul{
+  margin: 0 0 2em 0;
+  padding: 0;
+  text-align: center;
+}
+.traveler_container li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.traveler_container .money_owed{
+  color: red;
+  background: #fff;
+}
+
+
+
+/* FOOTER STYLES */
+#footer{
+  padding: 1em 0;
+  font-size: 2em;
+  background: #555;
+  color: #fff;
+}
+#footer a{
+  margin: 0 1em;
+  color: #91bcfc;
+}
+#footer a:hover{
+  color: #5096ff;
+}
+
+#footer .footer_social{
+  text-align: center;
+  padding: 2em 0;
+}
+
+#footer .copyright{
+  text-align: center;
+  font-size: .5em;
+  color: #777;
+}
+
+
+@media screen and (max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+}
