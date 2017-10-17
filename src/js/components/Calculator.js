@@ -23,6 +23,9 @@ class Calculator extends Component{
       array = this.state.travelers
     }
     array.push(traveler)
+    if(array.length > 2){
+      this.hideAddTraveler = true
+    }
     let subTotal = this.state.totalCost + traveler.total
     this.setState({ travelers: array, totalCost: subTotal})
   }
